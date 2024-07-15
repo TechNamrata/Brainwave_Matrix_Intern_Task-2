@@ -211,6 +211,7 @@
     .card:hover img {
         
         height: 10%;
+        transition: 0.5s ease-in-out;
         
     }
     .card:hover h1{
@@ -263,6 +264,54 @@
             padding: 10px 10px;
             animation: animate 5s ease infinite;
         }
+    @media (max-width:477px) {
+        .nav1{
+            font-size: 74%;
+        }
+        .nav2left{
+            font-size: 72%;
+        }
+        .nav2 .nav2centre h1{
+            font-size: 70%;
+        }
+        .nav2centre p{
+            font-size: 70%;
+        }
+        .nav2right{
+            font-size: 76%;
+        }
+        .featured{
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .featuretext{
+            font-size: 80%;
+        }
+        header{
+            height: 35vh;
+        }
+        .latest{
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        }
+        .cardcon{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .latest p{
+            font-size: 10px;
+            font-weight: 500;
+        }
+        footer{
+            font-size: 76%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
         @keyframes animate{
             0%{
                 background-color:var(--secondary) ;
