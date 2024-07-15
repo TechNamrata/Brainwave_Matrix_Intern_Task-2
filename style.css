@@ -264,7 +264,7 @@
             padding: 10px 10px;
             animation: animate 5s ease infinite;
         }
-    @media (max-width:450px) {
+    @media (max-width:420px) {
         .nav1{
             font-size: 72%;
         }
