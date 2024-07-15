@@ -1,4 +1,4 @@
-*{padding: 0;
+*{  padding: 0;
     margin: 0;
     box-sizing: border-box;}
     body{
@@ -69,11 +69,11 @@
     .nav2 .nav2left i{
         margin-left: 15px;
     }
-    .nav2 .nav2centre h1{
+    .nav2 .nav2centre h2{
     color: var(--primary);
-    font-size: 2rem;
-    letter-spacing: 5px;
-    font-weight: bold;
+    font-size: 25px;
+    
+    
     }
     .nav2 .nav2centre p{
        margin-top: 5px;
@@ -264,27 +264,38 @@
             padding: 10px 10px;
             animation: animate 5s ease infinite;
         }
-    @media (max-width:477px) {
+    @media (max-width:450px) {
         .nav1{
-            font-size: 74%;
-        }
-        .nav2left{
             font-size: 72%;
         }
-        .nav2 .nav2centre h1{
-            font-size: 70%;
+        .nav2{
+            max-height:90px;
         }
-        .nav2centre p{
-            font-size: 70%;
+        .right i{
+            height: 25px;
+            width: 25px;
+        }
+        .nav2left{
+            font-size: 68%;
+        }
+        .nav2 .nav2centre h2{
+            font-size: 16px;
+        }
+        .nav2 .nav2centre p{
+            font-size: 9px;
         }
         .nav2right{
-            font-size: 76%;
+            font-size: 68%;
         }
         .featured{
             height: 20vh;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .featured button{
+            padding: 0;
+            margin: 0;
         }
         .featuretext{
             font-size: 80%;
@@ -293,8 +304,7 @@
             height: 35vh;
         }
         .latest{
-            padding: 0px;
-            margin: 0px;
+            height: 100%;
             width: 100%;
         }
         .cardcon{
@@ -311,6 +321,10 @@
             display: flex;
             flex-direction: column;
         }
+        .nav3{
+            height: 20vh;
+        }
+        
     }
         @keyframes animate{
             0%{
