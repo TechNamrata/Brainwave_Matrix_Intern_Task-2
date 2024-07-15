@@ -264,7 +264,7 @@
             padding: 10px 10px;
             animation: animate 5s ease infinite;
         }
-    @media (max-width:420px) {
+    @media (max-width:450px) {
         .nav1{
             font-size: 72%;
         }
@@ -288,7 +288,7 @@
             font-size: 68%;
         }
         .featured{
-            height: 20vh;
+            height: 40vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -304,13 +304,13 @@
             height: 35vh;
         }
         .latest{
-            height: 100%;
+            
             width: 100%;
         }
         .cardcon{
             display: flex;
             flex-direction: column;
-            width: 100%;
+            
         }
         .latest p{
             font-size: 10px;
